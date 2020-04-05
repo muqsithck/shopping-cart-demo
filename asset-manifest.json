@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/shopping-cart-demo/static/css/main.e3023122.chunk.css",
+    "main.js": "/shopping-cart-demo/static/js/main.b2a80bb3.chunk.js",
+    "main.js.map": "/shopping-cart-demo/static/js/main.b2a80bb3.chunk.js.map",
+    "runtime-main.js": "/shopping-cart-demo/static/js/runtime-main.33546835.js",
+    "runtime-main.js.map": "/shopping-cart-demo/static/js/runtime-main.33546835.js.map",
+    "static/js/2.ff2613d0.chunk.js": "/shopping-cart-demo/static/js/2.ff2613d0.chunk.js",
+    "static/js/2.ff2613d0.chunk.js.map": "/shopping-cart-demo/static/js/2.ff2613d0.chunk.js.map",
+    "index.html": "/shopping-cart-demo/index.html",
+    "precache-manifest.197cc0fb0ed2762c92d9da2abf467180.js": "/shopping-cart-demo/precache-manifest.197cc0fb0ed2762c92d9da2abf467180.js",
+    "service-worker.js": "/shopping-cart-demo/service-worker.js",
+    "static/css/main.e3023122.chunk.css.map": "/shopping-cart-demo/static/css/main.e3023122.chunk.css.map",
+    "static/js/2.ff2613d0.chunk.js.LICENSE.txt": "/shopping-cart-demo/static/js/2.ff2613d0.chunk.js.LICENSE.txt",
+    "static/media/Ahinsak.jpg": "/shopping-cart-demo/static/media/Ahinsak.5661caa0.jpg",
+    "static/media/akiva.jpg": "/shopping-cart-demo/static/media/akiva.4ba45de3.jpg",
+    "static/media/akshay.jpg": "/shopping-cart-demo/static/media/akshay.341ea69f.jpg",
+    "static/media/brigigowla.jpg": "/shopping-cart-demo/static/media/brigigowla.1436618c.jpg",
+    "static/media/brijmohan.jpg": "/shopping-cart-demo/static/media/brijmohan.c4b41160.jpg",
+    "static/media/divya.jpg": "/shopping-cart-demo/static/media/divya.95094672.jpg",
+    "static/media/iorganic1.jpg": "/shopping-cart-demo/static/media/iorganic1.d88a3e52.jpg",
+    "static/media/iorganic500.jpg": "/shopping-cart-demo/static/media/iorganic500.49c20a61.jpg",
+    "static/media/jivika.jpg": "/shopping-cart-demo/static/media/jivika.7e637000.jpg",
+    "static/media/nanak.jpg": "/shopping-cart-demo/static/media/nanak.63a62df5.jpg",
+    "static/media/naturlle.jpg": "/shopping-cart-demo/static/media/naturlle.858a25d3.jpg",
+    "static/media/shaiwal.jpg": "/shopping-cart-demo/static/media/shaiwal.6eaf958f.jpg",
+    "static/media/vanaliya.jpg": "/shopping-cart-demo/static/media/vanaliya.195bcedf.jpg",
+    "static/media/ved.jpg": "/shopping-cart-demo/static/media/ved.a97d6aed.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.33546835.js",
+    "static/js/2.ff2613d0.chunk.js",
+    "static/css/main.e3023122.chunk.css",
+    "static/js/main.b2a80bb3.chunk.js"
+  ]
+}
