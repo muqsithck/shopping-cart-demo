@@ -9,6 +9,13 @@ function App() {
   const [cart, addToCart] = useState([]);
   const [modal , setModal] = useState(false)
   
+ 
+  const handleAddToCart = (item, count) => {
+    let total = item.price * count;
+    let newItem = { ...item, count: count, total: total };
+    addToCart([...cart, newItem]);
+  };
+
   const handleModal = () => {
     setModal(!modal)
   }
@@ -17,13 +24,7 @@ function App() {
     setModal(!modal)
   }
 
-  const handleAddToCart = (item, count) => {
-    let total = item.price * count;
-    let newItem = { ...item, count: count, total: total };
-    addToCart([...cart, newItem]);
-  };
 
-  console.log(cart);
   useEffect(() => {
     async function fetchData() {
       let res = await fetch("/data.json")
