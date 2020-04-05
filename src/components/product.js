@@ -1,6 +1,12 @@
-import React from "react";
+import React, {useState} from "react";
 
 export default function Product(props) {
+   
+  const [ count , setCount ] =  useState(1)
+
+ 
+   
+
   return (
     <div>
       <div className="product-item-wrapper">
@@ -22,12 +28,18 @@ export default function Product(props) {
 
             <div className="button-wrapper"> 
               <div>
-                <button className="primary-button"> ADD TO CART </button>
+                <button className="primary-button"
+                onClick={ () => props.handleAddToCart(props.item, count)  }
+                > ADD TO CART </button>
               </div>
               <div className="round-button-wrapper">
-              <button className="round-button"> + </button>
-              <p className="caption" > 5 </p>
-              <button className="round-button"> -</button>
+              <button className="round-button"
+              onClick={ () => setCount( count + 1) }
+              > + </button>
+              <p className="caption" > {count} </p>
+              <button className="round-button" style={{ display: count > 0 ? "block" : "none" }}
+              onClick={ () => setCount( count - 1) }
+              > -</button>
               </div>
             </div>
           </div>
