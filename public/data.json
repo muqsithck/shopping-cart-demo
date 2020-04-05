@@ -1,0 +1,130 @@
+[
+    {
+        "brand_name": "iorganic",
+        "product_name": "Desi Cow Ghee",
+        "quantity": "500 ml",
+        "price": "550",
+        "image_URL": "iorganic500.jpg",
+        "offer": "4"
+    },
+    {
+        "brand_name": "Ahinsak",
+        "product_name": "Gau Ghee",
+        "quantity": "1 ltr",
+        "price": "1200",
+        "image_URL": "Ahinsak.jpg",
+        "offer": "10"
+    },
+    {
+        "brand_name": "jivika.jpg",
+        "product_name": "Cow Ghee",
+        "quantity": "1 ltr",
+        "price": "1400",
+        "image_URL": "jivika.jpg",
+        "offer": "15"
+    },
+    {
+        "brand_name": "nanak",
+        "product_name": "MR.Dairy",
+        "quantity": "500 ml",
+        "price": "480",
+        "image_URL": "nanak.jpg",
+        "offer": "0"
+    },
+    {
+        "brand_name": "Brijmohan.jpg",
+        "product_name": "A2 Desi Ghee",
+        "quantity": "500 ml",
+        "price": "480",
+        "image_URL": "brijmohan.jpg",
+        "offer": "2"
+    },
+    {
+        "brand_name": "Vanaliya",
+        "product_name": "GIR Cow Ghee",
+        "quantity": "200 ml",
+        "price": "120",
+        "image_URL": "vanaliya.jpg",
+        "offer": "0"
+    },
+    {
+        "brand_name": "iorganic",
+        "product_name": "Desi Cow Ghee",
+        "quantity": "1 ltr",
+        "price": "1020",
+        "image_URL": "iorganic1.jpg",
+        "offer": "6"
+    },
+    {
+        "brand_name": "akshay",
+        "product_name": "Cow Ghee",
+        "quantity": "500 ml",
+        "price": "360",
+        "image_URL": "akshay.jpg",
+        "offer": "0"
+    },
+    {
+        "brand_name": "Akiva",
+        "product_name": "Milk Ghee",
+        "quantity": "2 ltr",
+        "price": "2200",
+        "image_URL": "akiva.jpg",
+        "offer": "12"
+    },
+    {
+        "brand_name": "Divya",
+        "product_name": "Desi Cow Ghee",
+        "quantity": "200 ml",
+        "price": "130",
+        "image_URL": "divya.jpg",
+        "offer": "4"
+    },
+    {
+        "brand_name": "Shaiwal",
+        "product_name": "Cow Ghee",
+        "quantity": "200 ml",
+        "price": "150",
+        "image_URL": "shaiwal.jpg",
+        "offer": "10"
+    },
+    {
+        "brand_name": "VED",
+        "product_name": "GIR Cow Ghee",
+        "quantity": "750 ml",
+        "price": "950",
+        "image_URL": "ved.jpg",
+        "offer": "12"
+    },
+    {
+        "brand_name": "naturlle",
+        "product_name": "GIR Cow Ghee",
+        "quantity": "500 ml",
+        "price": "370",
+        "image_URL": "naturlle.jpg",
+        "offer": "0"
+    },
+    {
+        "brand_name": "brigigowla",
+        "product_name": "Pure Cow Ghee",
+        "quantity": "1 ltr",
+        "price": "980",
+        "image_URL": "brigigowla.jpg",
+        "offer": "0"
+    },
+    {
+        "brand_name": "iorganic",
+        "product_name": "Desi Cow Ghee",
+        "quantity": "720 ml",
+        "price": "900",
+        "image_URL": "iorganic500.jpg",
+        "offer": "4"
+    },
+    {
+        "brand_name": "Ahinsak",
+        "product_name": "Gau Ghee",
+        "quantity": "250 ltr",
+        "price": "300",
+        "image_URL": "Ahinsak.jpg",
+        "offer": "10"
+    }
+]

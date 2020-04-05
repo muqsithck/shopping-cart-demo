@@ -1,24 +1,34 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect, useState } from "react";
+import "./App.css";
+import Product from './components/product'
+import Footer from './components/footer'
 
 function App() {
+  const [data, setData] = useState([]);
+
+  useEffect(() => {
+    async function fetchData() {
+      let res = await fetch("/data.json")
+        .then((res) => res.json())
+        .catch((err) => {
+          throw err;
+        });
+      setData(res);
+    }
+    fetchData();
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+   <div style={{ position:'relative'}}>
+   <div className="app-container">
+      {data.map((item, index) => {
+        return (
+          <Product  item={item} />
+          
+        );
+      })}
+    </div>
+    <Footer />
     </div>
   );
 }
