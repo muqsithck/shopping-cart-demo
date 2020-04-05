@@ -4,8 +4,6 @@ export default function Product(props) {
    
   const [ count , setCount ] =  useState(1)
 
- 
-   
 
   return (
     <div>

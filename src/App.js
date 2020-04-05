@@ -27,15 +27,19 @@ function App() {
 
   useEffect(() => {
     async function fetchData() {
-      let res = await fetch("/data.json")
+      let res = await fetch("https://shopping-cart-items.herokuapp.com/list")
         .then((res) => res.json())
         .catch((err) => {
           throw err;
         });
+        console.log(res)
       setData(res);
     }
     fetchData();
   }, []);
+
+
+
 
   return (
     <div style={{ position: "relative" }}>
